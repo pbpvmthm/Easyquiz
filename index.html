@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piboon Simple Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js" charset="UTF-8"></script>
+</head>
+
+<body>
+    <table>
+        <td>
+            <h1 id="Heading">Easy Quiz by Piboonp!</h1>
+        </td>
+        <tr>
+            <td>
+                <div class="quiz-container">
+                    <h1></h1>
+                    <p id="question">Question 1: PIM ย่อมาจากอะไร ?</p>
+                    <button class="button" onclick="checkAnswer_1('a')">A) พีไอเอ็ม</button>
+                    <button class="button" onclick="checkAnswer_1('b')">B) ปิ๋ม</button>
+                    <br>
+                    <button class="button" onclick="checkAnswer_1('c')">C) พิม</button>
+                    <button class="button" onclick="checkAnswer_1('d')">D) ภีม</button>
+                    <p id="result_1"></p>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="quiz-container">
+                    <h1></h1>
+                    <p id="question">Question 2: CS ย่อมาจากอะไร ?</p>
+                    <button class="button" onclick="checkAnswer_2('a')">A) Counter Strike</button>
+                    <button class="button" onclick="checkAnswer_2('b')">B) Counter service</button>
+                    <br>
+                    <button class="button" onclick="checkAnswer_2('c')">C) Copper II Sulfate</button>
+                    <button class="button" onclick="checkAnswer_2('d')">D) Customer service</button>
+                    <p id="result_2"></p>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h3 id="score">Your score is <span id="score_display">0</span>/2
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
